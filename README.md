@@ -27,17 +27,17 @@ Portable Python
 Usage
 ------------
 
-* Extract portable-python.zip
+* Extract ppy.zip
 
 powershell
 ```
-Expand-Archive portable-python.zip
+Expand-Archive ppy.zip
 
 portable-python\python.exe -c "print('Hello World')"
 ```
 #### OR
 ```
-Expand-Archive -Path portable-python.zip -DestinationPath XYZ
+Expand-Archive -Path ppy.zip -DestinationPath XYZ
 
 XYZ\python.exe test.py
 ```
@@ -45,11 +45,11 @@ XYZ\python.exe test.py
 ### python.ps1
 
 ```
-iwr "https://github.com/portable-python/portable-python/portable-python.zip" -o portable-python.zip
+iwr "https://github.com/portable-python/portable-python/ppy.zip" -o ppy.zip
 
-Expand-Archive portable-python.zip
+Expand-Archive ppy.zip
 
-cd portable-python.zip
+cd ppy.zip
 
 python.exe -c "print('Hello World')"
 
