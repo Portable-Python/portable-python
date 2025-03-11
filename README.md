@@ -45,7 +45,7 @@ XYZ\python.exe test.py
 ### python.ps1
 
 ```
-iwr "https://github.com/portable-python/portable-python/ppy.zip" -o ppy.zip
+iwr "https://github.com/Portable-Python/portable-python/releases/download/ppy/ppy.zip" -o ppy.zip
 
 Expand-Archive ppy.zip
 
