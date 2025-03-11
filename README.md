@@ -24,6 +24,15 @@ Portable Python
 
 - **No admin privileges required** – You can unzip and use the distribution anywhere.
 
+
+
+Download
+------------
+
+<a href="https://github.com/Portable-Python/portable-python/releases/download/ppy/ppy.zip"> Download zip file</a>
+
+
+
 Usage
 ------------
 
@@ -42,7 +51,7 @@ Expand-Archive -Path ppy.zip -DestinationPath XYZ
 XYZ\python.exe test.py
 ```
 
-### python.ps1
+### get_python.ps1
 
 ```
 iwr "https://github.com/Portable-Python/portable-python/releases/download/ppy/ppy.zip" -o ppy.zip
